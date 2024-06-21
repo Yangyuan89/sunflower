@@ -40,6 +40,9 @@ class GalleryFragment : Fragment() {
     private val args: GalleryFragmentArgs by navArgs()
     private var searchJob: Job? = null
     private val viewModel: GalleryViewModel by viewModels()
+//    bylazy实现mbinging的延迟初始化
+//    private val binding by lazy { FragmentGalleryBinding.inflate(layoutInflater) }
+
 
     override fun onCreateView(
         inflater: LayoutInflater,

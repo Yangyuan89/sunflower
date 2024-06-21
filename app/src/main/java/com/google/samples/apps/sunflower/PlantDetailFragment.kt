@@ -42,7 +42,7 @@ import dagger.hilt.android.AndroidEntryPoint
  */
 @AndroidEntryPoint
 class PlantDetailFragment : Fragment() {
-
+//
     private val plantDetailViewModel: PlantDetailViewModel by viewModels()
 
     override fun onCreateView(
@@ -68,7 +68,7 @@ class PlantDetailFragment : Fragment() {
                 }
             }
 
-            galleryNav.setOnClickListener { navigateToGallery() }
+
 
             var isToolbarShown = false
 
@@ -108,7 +108,7 @@ class PlantDetailFragment : Fragment() {
                 }
             }
         }
-        setHasOptionsMenu(true)
+        setHasOptionsMenu(false)
 
         return binding.root
     }

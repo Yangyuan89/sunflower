@@ -15,6 +15,7 @@
  */
 
 buildscript {
+
     // Define versions in a single place
     ext {
         // Sdk and tools
@@ -70,8 +71,11 @@ buildscript {
     }
 }
 
+
+
 plugins {
     id "com.diffplug.spotless" version "6.4.1"
+
 }
 
 allprojects {
